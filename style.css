@@ -1,5 +1,36 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding:70px 40px;
+}
+
+.card{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    display: flex;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 15px 35px rgba(15, 227, 57, 0.729);
+}
+
+.right-side img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper p{
+    opacity: 0.5;
+}
+
+.left-side h1{
+    padding-bottom: 30px;
 }
